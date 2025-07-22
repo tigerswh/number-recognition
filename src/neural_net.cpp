@@ -1,8 +1,7 @@
-#include "NeuralNet.hpp"
+#include "neural_net.hpp"
 #include <cmath>
 #include <cstdlib>
 #include <fstream>
-
 
 NeuralNet::NeuralNet(int inputSize, int hiddenSize, int outputSize) {
     // Random weights between -1 and 1

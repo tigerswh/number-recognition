@@ -4,8 +4,8 @@
 #include <vector>
 
 #include "image_preprocess.hpp"
-#include "Trainer.hpp"
-#include "NeuralNet.hpp"
+#include "trainer.hpp"
+#include "neural_net.hpp"
 
 // after making new hpp and cpp
 // run  "make clean" # Removes old compiled files

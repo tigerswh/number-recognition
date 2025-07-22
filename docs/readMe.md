@@ -1,1 +1,1 @@
-this is a templat set up of sfml
+TESTING

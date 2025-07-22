@@ -1,10 +1,11 @@
-#include "Trainer.hpp"
-#include "NeuralNet.hpp"
 #include <fstream>
 #include <sstream>
 #include <vector>
 #include <iostream>
 #include <random>
+
+#include "trainer.hpp"
+#include "neural_net.hpp"
 
 // Parse a CSV line into label and pixels
 bool parse_csv_line(const std::string& line, int& label, std::vector<float>& pixels) {
